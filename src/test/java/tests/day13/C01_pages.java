@@ -9,7 +9,7 @@ import pages.AmazonPage;
 
 public class C01_pages extends utilities.TestBase {
     //amazon sayfasina gidip
-    //nutella icin arama yapin
+    //nutella icin arama yapiniz
     //sonc sayisini yazdirin ve sonuc yazisinin nutella icerdigini test ediniz
     @Test
     public void test(){
