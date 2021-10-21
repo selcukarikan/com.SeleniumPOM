@@ -21,7 +21,7 @@ public class C03_AmazonPage extends utilities.TestBase {
         amazonPage.suchBox.sendKeys("Java"+ Keys.ENTER);
         //bulunan sonuc yazisini yazin
         System.out.println(amazonPage.ergebnissen.getText());
-        //ilk urun isminde java gectigini test ediniz
+        //ilk urun isminde java gectigini test ediniz.
 Assert.assertTrue(amazonPage.firstproductname.getText().contains("Java"));
     }
 }
